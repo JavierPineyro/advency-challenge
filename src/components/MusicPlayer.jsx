@@ -20,7 +20,7 @@ export default function MusicPlayer () {
         icon={play ? <MutedIcon /> : <SoundIcon />}
       />
       <ReactHowler
-        src='/navidad.mp3'
+        src='/advency-challenge/navidad.mp3'
         playing={play}
         mute={!play}
         volume={0.3}

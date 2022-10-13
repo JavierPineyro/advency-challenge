@@ -36,7 +36,7 @@ function App () {
       backgroundPosition='center'
       backgroundRepeat='no-repeat'
       bgSize='cover' position='relative'
-      backgroundImage="url('/navidad-bg.webp')"
+      backgroundImage="url('/advency-challenge/navidad-bg-compressed.jpg')"
     >
       <Snowfall snowflakeCount={45} />
       <Container maxH='100vh' maxW={['container.xs', 'container.sm']} className='App'>
@@ -96,7 +96,7 @@ function App () {
           </AnimatePresence>
           <Center paddingTop={15}>
             <Text fontWeight='extrabold' fontSize={14} color='whiteAlpha.900'>
-              Hecho por Javier Piñeyro💙​🧑‍💻
+              Hecho por Javier Piñeyro💙🧑‍💻
             </Text>
           </Center>
         </Grid>
