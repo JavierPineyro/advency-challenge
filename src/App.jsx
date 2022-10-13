@@ -36,7 +36,7 @@ function App () {
       backgroundPosition='center'
       backgroundRepeat='no-repeat'
       bgSize='cover' position='relative'
-      backgroundImage="url('/navidad-bg¿.webp')"
+      backgroundImage="url('/navidad-bg.webp')"
     >
       <Snowfall snowflakeCount={45} />
       <Container maxH='100vh' maxW={['container.xs', 'container.sm']} className='App'>

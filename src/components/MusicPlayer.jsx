@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { Button, IconButton } from '@chakra-ui/react'
+import { IconButton } from '@chakra-ui/react'
 import ReactHowler from 'react-howler'
 import MutedIcon from './IconMuted'
 import SoundIcon from './IconSound'
