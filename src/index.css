@@ -17,3 +17,10 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 }
+/* html{
+  background-image: url('/navidad-bg.webp');
+  background-position: 'center';
+      background-repeat:no-repeat;
+      background-size:cover;
+      position:relative;
+} */
