@@ -57,7 +57,7 @@ function App () {
               <Stack direction='row'>
                 <Heading
                   flex={1}
-                  bgGradient='linear(to-l, pink.500, #FF0080)'
+                  bgGradient='linear(to-l, green.600, green)'
                   bgClip='text'
                   fontSize='4xl'
                   fontWeight='extrabold'
@@ -70,7 +70,7 @@ function App () {
                 </Box>
               </Stack>
               <Button
-                colorScheme='pink' minH='35px'
+                colorScheme='green' minH='35px'
                 variant='solid' onClick={onOpen}
               >Agregar Regalo
               </Button>
@@ -85,7 +85,7 @@ function App () {
             }
               <Box display='flex' justifyContent='center'>
                 <Button
-                  colorScheme='pink'
+                  colorScheme='green'
                   variant='solid'
                   onClick={deleteAll}
                 >
@@ -95,7 +95,7 @@ function App () {
             </Stack>
           </AnimatePresence>
           <Center paddingTop={15}>
-            <Text fontWeight='extrabold' fontSize={14} color='whiteAlpha.900'>
+            <Text backgroundColor='#222e' borderRadius='sm' fontWeight='extrabold' fontSize={14} color='whiteAlpha.900'>
               Hecho por Javier Piñeyro💙🧑‍💻
             </Text>
           </Center>

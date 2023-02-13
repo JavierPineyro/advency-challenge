@@ -38,7 +38,7 @@ export default function GiftItem ({ onEdit, gift, onDelete }) {
         </Box>
         <Text maxW={['140px', '250px']}>
           {gift.product}
-          <Badge colorScheme='purple' as='span'>x{gift.amount}</Badge>
+          <Badge colorScheme='red' as='span'>x{gift.amount}</Badge>
           <Text as='span' marginLeft={1} py={1} fontSize='sm' lineHeight={0.7} fontWeight='light' color='gray.600'>
             {gift.name}
           </Text>

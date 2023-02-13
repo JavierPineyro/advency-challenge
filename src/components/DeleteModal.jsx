@@ -16,7 +16,7 @@ export function DeleteModal ({ isOpen, onClose, onDelete, gift }) {
         </ModalBody>
 
         <ModalFooter>
-          <Button onClick={handleDelete} colorScheme='pink'>Borrar</Button>
+          <Button onClick={handleDelete} colorScheme='green'>Borrar</Button>
           <Button variant='ghost' ml={3} onClick={onClose}>
             Cancelar
           </Button>

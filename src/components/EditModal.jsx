@@ -110,7 +110,7 @@ export default function EditModal ({ gift, onEdit, onClose, editRef, isOpen }) {
               </Stack>
             </ModalBody>
             <ModalFooter>
-              <Button mr={3} colorScheme='pink' type='submit'>Editar</Button>
+              <Button mr={3} colorScheme='green' type='submit'>Editar</Button>
               <Button onClick={onClose}>Cancelar</Button>
             </ModalFooter>
           </FormControl>

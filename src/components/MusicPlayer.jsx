@@ -15,7 +15,7 @@ export default function MusicPlayer () {
       <IconButton
         title={play ? 'Parar Musica' : 'Reproducir Musica'}
         borderRadius='9999px'
-        variant='outline' colorScheme='pink'
+        variant='outline' colorScheme='green'
         onClick={handleMusic}
         icon={play ? <MutedIcon /> : <SoundIcon />}
       />

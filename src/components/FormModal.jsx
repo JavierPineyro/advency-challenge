@@ -118,7 +118,7 @@ export default function FormModal ({ setGifts, onClose, initialRef, isOpen }) {
               </Stack>
             </ModalBody>
             <ModalFooter>
-              <Button mr={3} colorScheme='pink' type='submit'>Agregar</Button>
+              <Button mr={3} colorScheme='green' type='submit'>Agregar</Button>
               <Button onClick={onClose}>Cancelar</Button>
             </ModalFooter>
           </FormControl>
